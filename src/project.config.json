@@ -1,0 +1,48 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "1.9.98",
+	"appid": "wx7f9af8ca8c5d0a80",
+	"projectname": "wx_turntable",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": -1,
+					"name": "幸运转盘",
+					"pathName": "pages/luckyTurnTable/luckyTurnTable",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "转盘",
+					"pathName": "pages/turnTable/turnTable",
+					"query": ""
+				}
+			]
+		}
+	}
+}

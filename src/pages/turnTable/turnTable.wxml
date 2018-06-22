@@ -1,0 +1,17 @@
+<view class="container">
+    <view class="plate-wrap-box">
+        <view class="plate-border" animation="{{ aniData }}">
+            <view class="plate-wrap">
+                <image mode='widthFix' src='/images/bgc.png' />
+                <view wx:for="{{ lottery }}" wx:key="index" style="top: 50rpx;transform-origin: 50% 283rpx;transform:translate(-50%,0) rotate({{ 360/lottery.length * ( index )}}deg);">
+                    <image mode='widthFix' style='width:100rpx;' src='/images/pic_1.png' />
+                    <text>{{item}}</text>
+                </view>
+            </view>
+        </view>
+        <view class="plate-btn-wrap" bindtap="startRollTap">
+            <image mode='widthFix' src='/images/btn_start.png' />
+            <text>GO</text>
+        </view>
+    </view>
+</view>

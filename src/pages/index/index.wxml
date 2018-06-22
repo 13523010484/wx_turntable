@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<view class='page'>
+    <navigator url='/pages/turnTable/turnTable'>转盘抽奖</navigator>
+    <navigator url='/pages/nineGrid/nineGrid'>九宫格抽奖</navigator>
+    <navigator url='/pages/luckyTurnTable/luckyTurnTable'>幸运转盘</navigator>
+</view>
